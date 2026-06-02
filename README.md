@@ -19,7 +19,7 @@
 
 ## ⚡ Live Demo
 
-**[View Live Demo →](saas-landing-page-ten-teal.vercel.app)**
+**[View Live Demo →](https://www.shadcndeck.com/preview/templates/saas-landing-page-ten-teal)**
 
 ---
 ## Why ChatDeck?
