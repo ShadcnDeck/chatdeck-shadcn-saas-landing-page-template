@@ -1,8 +1,6 @@
 import { HeadsetIcon, LinkIcon, PlusIcon, SettingsIcon, ShieldCheckIcon, SparklesIcon } from 'lucide-react'
 
-import * as AccordionPrimitive from '@radix-ui/react-accordion'
-
-import { Accordion, AccordionContent, AccordionItem } from '@/components/ui/accordion'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 
 export function FaqSection() {
     const items = [
@@ -47,21 +45,16 @@ export function FaqSection() {
                     Everything you need to know about ChatDeck and how it can transform your business.
                 </p>
             </div>
-            <Accordion type='single' collapsible className='max-w-4xl mx-auto' defaultValue='item-1'>
+            <Accordion className='max-w-4xl mx-auto' defaultValue={['item-1']}>
                 {items.map((item, index) => (
                     <AccordionItem key={index} value={`item-${index + 1}`}>
-                        <AccordionPrimitive.Header className='flex'>
-                            <AccordionPrimitive.Trigger
-                                data-slot='accordion-trigger'
-                                className='focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 rounded-md py-4 text-left text-sm font-medium transition-all outline-none focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-state=open]>svg]:rotate-45'
-                            >
-                                <span className='flex items-center gap-4'>
-                                    <item.icon className='size-4 shrink-0' />
-                                    <span>{item.title}</span>
-                                </span>
-                                <PlusIcon className='text-muted-foreground pointer-events-none size-4 shrink-0 transition-transform duration-200' />
-                            </AccordionPrimitive.Trigger>
-                        </AccordionPrimitive.Header>
+                        <AccordionTrigger className='py-4 **:data-[slot=accordion-trigger-icon]:hidden'>
+                            <span className='flex items-center gap-4'>
+                                <item.icon className='size-4 shrink-0' />
+                                <span>{item.title}</span>
+                            </span>
+                            <PlusIcon className='text-muted-foreground pointer-events-none ml-auto size-4 shrink-0 transition-transform duration-200 group-aria-expanded/accordion-trigger:rotate-45' />
+                        </AccordionTrigger>
                         <AccordionContent className='text-muted-foreground'>{item.content}</AccordionContent>
                     </AccordionItem>
                 ))}

@@ -77,20 +77,19 @@ export function PricingSection() {
                     {/* Billing Toggle */}
                     <div className="flex items-center justify-center mb-2">
                         <ToggleGroup
-                            type="single"
-                            value={isYearly ? "yearly" : "monthly"}
-                            onValueChange={(value) => setIsYearly(value === "yearly")}
+                            value={[isYearly ? "yearly" : "monthly"]}
+                            onValueChange={(value) => setIsYearly(value[0] === "yearly")}
                             className="bg-secondary text-secondary-foreground border-none rounded-full p-1 cursor-pointer shadow-none"
                         >
                             <ToggleGroupItem
                                 value="monthly"
-                                className="data-[state=on]:bg-background data-[state=on]:border-border border-transparent border px-6 !rounded-full data-[state=on]:text-foreground hover:bg-transparent cursor-pointer transition-colors"
+                                className="data-pressed:bg-background data-pressed:border-border border-transparent border px-6 !rounded-full data-pressed:text-foreground hover:bg-transparent cursor-pointer transition-colors"
                             >
                                 Monthly
                             </ToggleGroupItem>
                             <ToggleGroupItem
                                 value="yearly"
-                                className="data-[state=on]:bg-background data-[state=on]:border-border border-transparent border px-6 !rounded-full data-[state=on]:text-foreground hover:bg-transparent cursor-pointer transition-colors"
+                                className="data-pressed:bg-background data-pressed:border-border border-transparent border px-6 !rounded-full data-pressed:text-foreground hover:bg-transparent cursor-pointer transition-colors"
                             >
                                 Annually
                             </ToggleGroupItem>
@@ -139,7 +138,7 @@ export function PricingSection() {
                                     {/* CTA Button */}
                                     <div>
                                         <Button
-                                            className={`w-full cursor-pointer my-2 rounded-full ${plan.popular
+                                            className={`w-full cursor-pointer my-2 rounded-full h-9 px-4 ${plan.popular
                                                 ? 'shadow-md border-[0.5px] border-white/25 shadow-black/20 bg-primary ring-1 ring-primary/15 text-primary-foreground hover:bg-primary/90'
                                                 : 'shadow-sm shadow-black/15 border border-transparent bg-background ring-1 ring-foreground/10 hover:bg-muted/50'
                                                 }`}

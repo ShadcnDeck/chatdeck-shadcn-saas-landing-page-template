@@ -67,7 +67,7 @@ export function TeamSection() {
                             ease: [0.22, 1, 0.36, 1],
                         }}
                     >
-                        <Card className="group hover:shadow-lg transition-all duration-300 border-neutral-200 dark:border-neutral-800 h-full">
+                        <Card className="group hover:shadow-lg transition-all duration-300 border border-neutral-200 dark:border-neutral-800 h-full">
                             <CardContent className="p-6 text-center">
                                 <Avatar className="w-32 h-32 mx-auto mb-4">
                                     <AvatarImage src={member.image} alt={member.name} />

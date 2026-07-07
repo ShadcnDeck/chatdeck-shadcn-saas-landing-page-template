@@ -59,7 +59,7 @@ const Hero = () => {
                 className="flex items-center justify-center"
                 variants={fadeUpVariants}
             >
-                <Badge className="text-sm font-medium px-4 py-2 " variant={'outline'}>
+                <Badge className="h-auto text-sm font-medium px-4 py-2 " variant={'outline'}>
                     Trusted by 10k+ websites worldwide 🎉
                 </Badge>
             </motion.div>

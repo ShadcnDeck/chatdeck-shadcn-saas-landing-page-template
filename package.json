@@ -9,12 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@radix-ui/react-accordion": "^1.2.12",
-    "@radix-ui/react-avatar": "^1.1.11",
-    "@radix-ui/react-separator": "^1.1.8",
-    "@radix-ui/react-slot": "^1.2.4",
-    "@radix-ui/react-toggle": "^1.1.10",
-    "@radix-ui/react-toggle-group": "^1.1.11",
+    "@base-ui/react": "^1.6.0",
     "@tabler/icons-react": "^3.35.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -23,6 +18,7 @@
     "next": "^16.0.3",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "shadcn": "^4.13.0",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {

@@ -95,12 +95,9 @@ export const Navbar = () => {
                         <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                             <AnimatedThemeToggler />
                             <Button
-                                asChild
                                 size="sm"
-                                className={'lg:inline-flex rounded-full'}>
-                                <Link href="#">
-                                    <span>Get Started</span>
-                                </Link>
+                                className={'lg:inline-flex rounded-full h-8 px-3 text-sm'} render={<Link href='#' />} nativeButton={false}>
+                                <span>Get Started</span>
                             </Button>
                         </div>
                     </div>
