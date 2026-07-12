@@ -1,8 +1,8 @@
-# ChatDeck — Free SaaS Landing Page Template
+# ChatDeck — Free Shadcn UI SaaS Landing Page Template (Next.js + Tailwind)
 
 
 
-**A free, open-source SaaS landing page template built with Shadcn UI, Next.js, and Tailwind CSS. Launch and validate your product faster — without starting from scratch.**
+**ChatDeck is a free shadcn landing page template for SaaS products — built with Next.js, Tailwind CSS, and shadcn/ui. Launch and validate your product faster, without starting from scratch.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
@@ -13,18 +13,18 @@
 ---
 
 <!-- Replace with your actual screenshot -->
-[<img width="5000" height="2625" alt="ChatDeck Preview" src="https://github.com/user-attachments/assets/240e2f51-0f6d-41b8-8aff-b8c3975f2cf1" />](https://www.shadcndeck.com/templates/chatdeck-saas-landing-page)
+[<img width="5000" height="2625" alt="ChatDeck free shadcn SaaS landing page template preview" src="https://github.com/user-attachments/assets/240e2f51-0f6d-41b8-8aff-b8c3975f2cf1" />](https://www.shadcndeck.com/templates/chatdeck-saas-landing-page)
 
 ---
 
 ## ⚡ Live Demo
 
-**[View Live Demo →](https://www.shadcndeck.com/preview/templates/saas-landing-page-ten-teal)**
+**[View Live Demo →](https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page)**
 
 ---
-## Why ChatDeck?
+## Why choose this shadcn landing page template?
 
-Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are either too generic or too opinionated. ChatDeck gives you a clean, conversion-focused foundation that works for any SaaS product.
+Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are either too generic or too opinionated. ChatDeck gives you a clean, conversion-focused foundation that works for any SaaS product. Want alternatives? [Browse more free shadcn templates](https://www.shadcndeck.com/templates).
 
 - ✅ No paid tier. No restrictions. Fully open source.
 - ✅ Built with the tools you already use — Next.js, Shadcn UI, TypeScript, Tailwind
@@ -36,40 +36,40 @@ Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are e
 ## 🖼️ Screenshots
 
 <p align="center">
-  <a href="https://saas-landing-page-ten-teal.vercel.app/">
-    <img src="https://github.com/user-attachments/assets/f586134a-a40c-4d56-a746-303659a5cf07" alt="Hero Section" width="100%" />
+  <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page">
+    <img src="https://github.com/user-attachments/assets/f586134a-a40c-4d56-a746-303659a5cf07" alt="Shadcn SaaS landing page template hero section" width="100%" />
   </a>
   <br/>
-  <a href="https://saas-landing-page-ten-teal.vercel.app/"><strong>Hero Section</strong></a>
+  <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page"><strong>Hero Section</strong></a>
 </p>
 
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#features">
-        <img src="https://github.com/user-attachments/assets/ea7cd758-5f7d-4ca6-9b2e-ecb9617662d2" alt="Feature Section" width="100%" />
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#features">
+        <img src="https://github.com/user-attachments/assets/ea7cd758-5f7d-4ca6-9b2e-ecb9617662d2" alt="Shadcn UI feature grid section template" width="100%" />
       </a>
       <br/>
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#features"><strong>Feature Section</strong></a>
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#features"><strong>Feature Section</strong></a>
     </td>
     <td align="center" width="50%">
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#testimonials">
-        <img src="https://github.com/user-attachments/assets/e32dd1b9-8b99-40c4-a585-2528b1b35641" alt="Testimonial" width="100%" />
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#testimonials">
+        <img src="https://github.com/user-attachments/assets/e32dd1b9-8b99-40c4-a585-2528b1b35641" alt="Shadcn testimonials marquee section" width="100%" />
       </a>
       <br/>
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#testimonials"><strong>Testimonial</strong></a>
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#testimonials"><strong>Testimonial</strong></a>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#faq">
-        <img src="https://github.com/user-attachments/assets/df3928f7-decd-4e7a-9f05-835e738e4d44" alt="FAQ Section" width="100%" />
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#faq">
+        <img src="https://github.com/user-attachments/assets/df3928f7-decd-4e7a-9f05-835e738e4d44" alt="Shadcn accordion FAQ section template" width="100%" />
       </a>
       <br/>
-      <a href="https://saas-landing-page-ten-teal.vercel.app/#faq"><strong>FAQ Section</strong></a>
+      <a href="https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page#faq"><strong>FAQ Section</strong></a>
     </td>
     <td align="center" width="50%">
-      <img src="https://github.com/user-attachments/assets/5f7536c9-a8f2-437b-bbbd-afa1f77d537f" alt="Dark Mode" width="100%" />
+      <img src="https://github.com/user-attachments/assets/5f7536c9-a8f2-437b-bbbd-afa1f77d537f" alt="Shadcn landing page template dark mode" width="100%" />
       <br/>
       <strong>Dark Mode</strong>
     </td>
@@ -212,6 +212,26 @@ ChatDeck works on any platform that supports Next.js:
 - **Developers** — Building an MVP and skipping the design phase
 - **Teams** — Need a shared, open-source starting point for a product site
 - **Creators** — Want a clean layout that drives signups without heavy customization
+
+---
+
+## Frequently Asked Questions
+
+### Is this shadcn landing page template really free?
+
+Yes — ChatDeck is MIT licensed with no paid tier, no restrictions, and no attribution required.
+
+### Does it work with the latest Next.js and shadcn/ui?
+
+Yes. It's built on Next.js 15 with the App Router and current shadcn/ui components, styled with Tailwind CSS.
+
+### Can I use it for a commercial SaaS product?
+
+Yes. The MIT license covers both personal and commercial use — including client work and paid products.
+
+### Do I need to know shadcn/ui to customize it?
+
+No. Every section is a self-contained component, so you can edit content and colors without deep shadcn/ui knowledge. Familiarity with Tailwind helps for finer styling tweaks.
 
 ---
 
