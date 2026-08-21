@@ -5,7 +5,7 @@
 **ChatDeck is a free shadcn landing page template for SaaS products — built with Next.js, Tailwind CSS, and shadcn/ui. Launch and validate your product faster, without starting from scratch.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?logo=tailwindcss)
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-components-black)
@@ -90,7 +90,7 @@ Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are e
 | **Team** | Team cards with social links |
 | **Testimonials** | Auto-scrolling marquee with user feedback |
 | **Pricing** | Animated pricing with monthly/yearly toggle |
-| **FAQ** | Accordion FAQ section to handle objections |
+| **FAQ** | Accordion FAQ section to handle objections | | **Dark Mode** | Fully supported with animated theme toggler |
 
 ---
 
@@ -98,13 +98,15 @@ Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are e
 
 | Technology | Purpose |
 |---|---|
-| [Next.js](https://nextjs.org/) | React framework with App Router & SSR |
-| [React](https://react.dev/) | UI library with latest patterns |
+| [Next.js 16](https://nextjs.org/) | React framework with App Router & SSR |
+| [React 19](https://react.dev/) | UI library with latest patterns |
 | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+| [Tailwind CSS v4](https://tailwindcss.com/) | Utility-first styling |
 | [shadcn/ui](https://ui.shadcn.com/) | Accessible, composable components |
+| [Base UI](https://base-ui.com/) | Headless primitives with base-nova style |
 | [Lucide React](https://lucide.dev/) | Clean, consistent icon library |
-| [Motion](https://motion.dev/) | Smooth, performant animations |
+| [Tabler Icons](https://tabler.io/icons) | Extended icon library |
+| [Motion v12](https://motion.dev/) | Smooth, performant animations |
 
 ---
 
@@ -112,17 +114,17 @@ Most [shadcn landing page templates](https://www.shadcndeck.com/templates) are e
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 - npm, yarn, pnpm, or bun
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/chatdeck.git
+git clone https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template.git
 
 # Navigate into the project
-cd chatdeck
+cd chatdeck-shadcn-saas-landing-page-template
 
 # Install dependencies
 npm install
@@ -164,9 +166,9 @@ Each section is an individual component. Import or remove them from `app/page.ts
 
 ```tsx
 // app/page.tsx
-import Hero from "@/components/sections/Hero";
-import Features from "@/components/sections/Features";
-import Pricing from "@/components/sections/Pricing";
+import Hero from "@/components/Blocks/Hero";
+import { FeaturesSection } from "@/components/Blocks/FeatureSection";
+import { PricingSection } from "@/components/Blocks/PricingSection";
 // Add or remove as needed
 ```
 
@@ -181,7 +183,7 @@ chatdeck/
 │   ├── layout.tsx         # Root layout
 │   └── page.tsx           # Main page — import sections here
 ├── components/
-│   ├── sections/          # Individual page sections (Hero, Features, etc.)
+│   ├── Blocks/            # Individual page sections (Hero, Features, etc.)
 │   └── ui/                # Shadcn UI components
 ├── public/                # Static assets
 └── tailwind.config.ts     # Tailwind configuration
@@ -193,7 +195,7 @@ chatdeck/
 
 ### Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/chatdeck)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template)
 
 ### Other Platforms
 
@@ -223,7 +225,7 @@ Yes — ChatDeck is MIT licensed with no paid tier, no restrictions, and no attr
 
 ### Does it work with the latest Next.js and shadcn/ui?
 
-Yes. It's built on Next.js 15 with the App Router and current shadcn/ui components, styled with Tailwind CSS.
+Yes. It's built on Next.js 16 with React 19, the App Router, and current shadcn/ui components, styled with Tailwind CSS v4.
 
 ### Can I use it for a commercial SaaS product?
 
